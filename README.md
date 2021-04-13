@@ -2,7 +2,7 @@
 
 ### 0. Report
 
-Check the file Report.md on this repository
+Check the file [Report](https://github.com/WilliamGalindezArias/p1_navigation/blob/master/report.md) on this repository to learn the Model architecture and output
 
 ### 1. Environment
 

@@ -1,1 +1,2 @@
-
+mlagents==0.25.0
+torch

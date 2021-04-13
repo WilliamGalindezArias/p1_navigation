@@ -14,7 +14,7 @@ The *forward pass* in the Neural Network maps *state* to *action values*
 
 # Artifacts
 
-1. [Notebook](01-navigation-wg-deivered) with solution
+1. [Notebook](https://gitlab.com/r-learning/navigation/-/blob/master/01-navigation-wg-delivered.ipynb) with solution
 2. Script to run the environment outside jupyter-notebook `navigation.py`(https://gitlab.com/r-learning/navigation/-/blob/master/navigation.py)
 3. Weights `checkpoint.pth` of trained model in root folder [Navigation](https://gitlab.com/r-learning/navigation)
 

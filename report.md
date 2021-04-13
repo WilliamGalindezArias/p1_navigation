@@ -28,4 +28,4 @@ The value `UPDATE_EVERY` was set to 10 to improve the learning in the algorithm.
 #### Learning
 
 The Environment is solved once it gets a `score > 15` after `1800` episodes
-![learning][learning.png]
+![learning](learning.png)

@@ -12,6 +12,12 @@ The parameters of the model are:
 
 The *forward pass* in the Neural Network maps *state* to *action values*
 
+# Artifacts
+
+1. [Notebook](01-navigation-wg-deivered) with solution
+2. Script to run the environment outside jupyter-notebook `navigation.py`(https://gitlab.com/r-learning/navigation/-/blob/master/navigation.py)
+3. Weights `checkpoint.pth` of trained model in root folder [Navigation](https://gitlab.com/r-learning/navigation)
+
 #### Agent parameters
 
 ```
@@ -27,5 +33,6 @@ The value `UPDATE_EVERY` was set to 10 to improve the learning in the algorithm.
 
 #### Learning
 
-The Environment is solved once it gets a `score > 15` after `1800` episodes
+The Environment is solved once it gets a `score > 15` after `766` episodes
 ![learning](learning.png)
+

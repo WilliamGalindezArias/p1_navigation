@@ -14,7 +14,8 @@ The simulation contains a single agent that navigates a large environment.  At e
 
 The state space has `37` dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  A reward of `+1` is provided for collecting a yellow banana, and a reward of `-1` is provided for collecting a blue banana. 
 
-The environment is considered solved once it reaches an average score >= 16, as it can be seen in the `dqn` function:
+To solve the environment the agent must get an average score of +13 over 100 consecutive episodes.
+In my implementation I selected an average score >= 16, as it can be seen in the `dqn` function:
 
 ```
 np.mean(scores_window)>=16

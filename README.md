@@ -14,9 +14,16 @@ The simulation contains a single agent that navigates a large environment.  At e
 
 The state space has `37` dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  A reward of `+1` is provided for collecting a yellow banana, and a reward of `-1` is provided for collecting a blue banana. 
 
-Run the code cell below to print some information about the environment.
+The environment is considered solved once it reaches an average score >= 16, as it can be seen in the `dqn` function:
+
+```
+np.mean(scores_window)>=16
+print('\nEnvironment solved in {:d} episodes!\tAverage Score: {:.2f}'.format(i_episode-100, np.mean(scores_window)))
+````
 
 ### 2. Running the Agent
+
+2.0 Download the project [environment](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation#getting-started)
 
 2.1 Install [Unity](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md)  
 
